@@ -1,0 +1,32 @@
+#header article {
+    background-color: #fff;
+    display: flex;
+    height: 55px;
+    align-items: center;
+    padding: 0px 25px;
+  }
+  
+  #header article .logoBlock {
+    flex: 2;
+    display: flex;
+    align-items: center;
+  }
+  #header article .searchBlock {
+    flex: 4;
+  }
+  
+  #header article .menuBlock {
+    flex: 1;
+  }
+  
+  .logoBlock img {
+    width: 70px;
+  }
+  
+  .logoBlock .bars.icon {
+    font-size: 18px;
+    color: #444;
+    font-stretch: extra-condensed;
+    padding: 0px 30px 0 0;
+  }
+  

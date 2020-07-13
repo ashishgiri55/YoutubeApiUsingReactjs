@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+    font-family: 'Roboto',
+     sans-serif;
+}
+
+.searchinput {
+    width: 85%;
+  }
+  
+  .searchBlock .searchInput input {
+    padding: 0 1em;
+    border-radius: 0;
+    height: 32px;
+  }
+  
+  .searchBlock .searchInput button {
+    background: #f8f8f8;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    height: 32px;
+  }
+  
+.searchBlock .searchInput ::placeholder{
+    color:#666 !important;
+}
+
+.video_and_menuicons div:last-child{
+    flex: 2;
+}
+#data-list article{
+    display: flex;
+    justify-content: space-between;
+}
+.player_Block{
+    flex-basis: 69%;
+}
+.list-block{
+    flex-basis: 29%;
+}
+iframe{
+    width: 100% !important;
+    height: 500px !important;
+}
+.player_Block h1{
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.player_Block p{
+    font-size: 14px;
+    padding-left: 10px 0px;
+    border-bottom: 1px solid #ccc;
+}
